@@ -12,5 +12,5 @@ This API also has a 10Second Cooldown between each request to avoid abuse.
 
 
 Disclaimer:<br>
-
+I highly suggest not putting in personal information
 Im not responsible for any problems that may occur. Please use it responsable, as this service may else be disconntinued and you banned.
