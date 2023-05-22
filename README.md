@@ -6,7 +6,7 @@ Usage:
 http://217.160.202.8/send?number=[TELEPHONENUMBER]&msg=[MESSAGE]<br>
 -> Replace [TELEPHONENUMBER] with your number. Example: 441134960000<br>
 -> Replace [MESSAGE] with your desired message.<br>
-The User, which this message was sent to, will automaticly get the IP Adress of the sender to avoid abuse.<br>
+The User, which this message was sent to, will automaticly get the IP Adress of the sender to avoid abuse.<br><p><br>
 
 
 Disclaimer:<br>
