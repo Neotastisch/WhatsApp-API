@@ -1,4 +1,4 @@
-# WhatsApp-API
+# WhatsApp-API BETA
 The first **FREE** WhatsApp API for sending messages<br>
 
 
