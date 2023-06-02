@@ -3,6 +3,7 @@
 
 
 [Changelog](https://github.com/Neotastisch/WhatsApp-API/blob/main/changelog.md)
+[Swagger](https://api.neotastisch.de/swagger/)
 
 
 
