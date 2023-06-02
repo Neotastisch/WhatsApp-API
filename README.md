@@ -7,11 +7,11 @@
 
 
 
-The first **FREE** WhatsApp API for sending and recieving messages
+The first **FREE** WhatsApp API for sending and recieving messages<br>
 
 
 
-**Please note:** This module is still Work-In-Progress, expect bugs
+**Please note:** This module is still Work-In-Progress, expect bugs<br>
 **Disclaimer:**
 I highly suggest not putting in personal information
 Im not responsible for any problems that may occur. Please use it responsable, as this service may else be disconntinued and you banned.
@@ -22,12 +22,12 @@ Im not responsible for any problems that may occur. Please use it responsable, a
 ```js
 https://api.neotastisch.de/send?number=[TELEPHONENUMBER]&msg=[MESSAGE]&method=whatsapp
 ```
--> Replace [TELEPHONENUMBER] with your number. Example: 441134960000
--> Replace [MESSAGE] with your desired message.
-The User, which this message was sent to, will automaticly get the IP Adress of the sender to avoid abuse.
-This API also has a 10Second Cooldown between each request to avoid abuse.
+-> Replace [TELEPHONENUMBER] with your number. Example: 441134960000<br>
+-> Replace [MESSAGE] with your desired message.<br>
+The User, which this message was sent to, will automaticly get the IP Adress of the sender to avoid abuse.<br>
+This API also has a 10Second Cooldown between each request to avoid abuse.<br>
 
-##Example in Node.JS using Axios (Sending)
+##Example in Node.JS using Axios (Sending)<br>
 ```js
 const axios = require('axios');
 
@@ -56,11 +56,11 @@ sendMessage();
 
 ## Recieving messages
 
-Register a webhook
+Register a webhook<br>
 ```js
   https://api.neotastisch.de/webhook?number=[TELEPHONENUMBER]&webhook=[WEBHOOK URL]&method=whatsapp                                        
 ```
-*?msg? will be replaced with the recieved message.*
+*?msg? will be replaced with the recieved message.*<br>
 
 
 
