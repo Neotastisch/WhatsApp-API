@@ -3,6 +3,8 @@
 [Changelog](https://github.com/Neotastisch/WhatsApp-API/blob/main/changelog.md)<br>
 [Swagger](https://api.neotastisch.de/swagger/)
 
+BaseURL: (https://api.neotastisch.de)
+
 Welcome to the documentation for the WhatsApp-API BETA. This API allows you to send and receive messages through WhatsApp. Please note that this module is still a work in progress, so expect bugs. It is important to be cautious while using this API and avoid providing personal information. The API is provided for free, but please use it responsibly to avoid service discontinuation and potential bans.
 
 ## Sending Messages
