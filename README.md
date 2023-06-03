@@ -45,8 +45,9 @@ sendMessage();
 To receive messages, you need to register a webhook by making a request to the following endpoint:
 
 There are a few variables you can define in the webhook URL: 
-- Message Content: `?msg=`
-- Author: `?from=`
+- Message Content: `?msg?`
+- Author: `?from?`
+Theese will be replaced with the value in the URL
 
 ```http
 GET /webhook?number=[TELEPHONENUMBER]&webhook=[WEBHOOK URL]&method=whatsapp                                        
