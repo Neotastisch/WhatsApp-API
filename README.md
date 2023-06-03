@@ -44,14 +44,17 @@ sendMessage();
 
 To receive messages, you need to register a webhook by making a request to the following endpoint:
 
+There are a few variables you can define in the webhook URL: 
+- Message Content: `?msg=`
+- Author: `?from=`
+
 ```http
 GET /webhook?number=[TELEPHONENUMBER]&webhook=[WEBHOOK URL]&method=whatsapp                                        
 ```
-There are a few Variables, you can define in the WebHook URL: 
-Message Content: `?msg?`
-Author: `?from?`
 
-If you want to remove the WebHook simply write `WEBHOOK DELETE` in WhatsApp
+After that, type `AUTHORIZE` in WhatsApp to verify your identity.
+
+If you want to remove the webhook, simply write `WEBHOOK DELETE` in WhatsApp.
 
 Replace `[TELEPHONENUMBER]` with the phone number you want to register the webhook for. Replace `[WEBHOOK URL]` with the URL of the webhook endpoint where you want to receive the incoming messages. The received message will be included as a query parameter `msg` in the webhook URL.
 
