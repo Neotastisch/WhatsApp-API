@@ -26,5 +26,5 @@ By using the WhatsApp-API, you acknowledge and agree to abide by the terms and c
 
 If you have any questions or require further clarification regarding the WhatsApp-API usage policy, please contact us through the provided support channels.
 
-Last updated: [Date]
+Last updated: 04.06.2023
 
