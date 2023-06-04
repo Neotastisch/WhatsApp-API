@@ -49,6 +49,9 @@ To receive messages, you need to register a webhook by making a request to the f
 There are a few variables you can define in the webhook URL: 
 - Message Content: `?msg?`
 - Author: `?from?`
+- Reaction: `?reaction?`
+- Type: `?type?` - Either "reaction" or "message"
+
 Theese will be replaced with the value in the URL
 
 ```http
