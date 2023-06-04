@@ -17,14 +17,14 @@ To send a message, send a `GET` request to the following endpoint:
 GET /send?number=[TELEPHONENUMBER]&msg=[MESSAGE]&method=whatsapp
 ```
 
-Replace `[TELEPHONENUMBER]` with the desired recipient's phone number (e.g., 441134960000). Replace `[MESSAGE]` with the content of the message you wish to send. The sender's IP address will be automatically included in the message to prevent abuse. Please note that there is a 10-second cooldown period between each request to prevent misuse.
+Replace `[TELEPHONENUMBER]` with the desired recipient's phone number (e.g., 441134960000)(Without + and spaces). Replace `[MESSAGE]` with the content of the message you wish to send. The sender's IP address will be automatically included in the message to prevent abuse. Please note that there is a 10-second cooldown period between each request to prevent misuse.
 
 Here's an example of sending a message using Node.js and Axios:
 
 ```javascript
 const axios = require('axios');
 
-const phoneNumber = '441134960000'; // Replace with the desired recipient's phone number
+const phoneNumber = '441134960000'; // Replace with the desired recipient's phone number (Without + and spaces)
 const message = 'Hello world'; // Replace with the desired message
 
 async function sendMessage() {
