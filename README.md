@@ -1,6 +1,6 @@
 # WhatsApp-API BETA
 
-**Changelog**: [View Changelog](https://github.com/Neotastisch/WhatsApp-API/blob/main/changelog.md)<br>
+**Changelog**: [View Changelog](https://github.com/Neotastisch/WhatsApp-API/blob/main/Changelog.md)<br>
 **Swagger**: [API Swagger Documentation](https://api.neotastisch.de/swagger/)
 
 **BaseURL**: https://api.neotastisch.de
