@@ -49,8 +49,9 @@ sendMessage();
 To receive messages, you need to register a webhook by making a `GET` request to the following endpoint:
 
 You can define the following variables in the webhook URL:
-- `?msg?`: The message content (either new message or the message that was reacted to)
+- `?msg?`: The message content (new message, empty if reaction)
 - `?from?`: The number of the person who sent the message
+- `?msgid?`: The id of the message (new message or the message id, of the message, that was reacted it)
 - `?reaction?`: The reaction (if any). The message content will still be passed to the URL.
 - `?type?`: The type of message, either "reaction" or "message"
 
