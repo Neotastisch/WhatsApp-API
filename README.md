@@ -7,7 +7,7 @@
 
 **Support and Updates**: [Discord](https://discord.gg/pZKFGWVvfF)
 
-[TOS](https://github.com/Neotastisch/WhatsApp-API/blob/main/Terms_of_service.md)[Privacy Policy](https://github.com/Neotastisch/WhatsApp-API/blob/main/Privacy_Policy.md)[Usage Policy](https://github.com/Neotastisch/WhatsApp-API/blob/main/Usage_Policy.md)
+[TOS](https://github.com/Neotastisch/WhatsApp-API/blob/main/Terms_of_service.md) [Privacy Policy](https://github.com/Neotastisch/WhatsApp-API/blob/main/Privacy_Policy.md) [Usage Policy](https://github.com/Neotastisch/WhatsApp-API/blob/main/Usage_Policy.md)
 
 Welcome to the documentation for the WhatsApp-API BETA. This API allows you to send and receive messages through WhatsApp. Please note that this module is currently in beta, and occasional bugs may occur. It is crucial to use this API responsibly and refrain from providing any personal information. Although the API is offered free of charge, we kindly request that you comply with our guidelines to avoid service discontinuation or potential bans.
 
