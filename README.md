@@ -69,6 +69,4 @@ GET /webhook?number=[TELEPHONENUMBER]&webhook=[WEBHOOK URL]&method=whatsapp
 
 Feel free to explore the [Changelog](https://github.com/Neotastisch/WhatsApp-API/blob/main/Changelog.md) for updates and improvements to the API. For detailed API specifications, refer to the [Swagger documentation](https://api.neotastisch.de/swagger/).
 
-If you have any further questions or require assistance, please do not
-
- hesitate to reach out to us on [Discord](https://discord.gg/pZKFGWVvfF).
+If you have any further questions or require assistance, please do not hesitate to reach out to us on [Discord](https://discord.gg/pZKFGWVvfF).
